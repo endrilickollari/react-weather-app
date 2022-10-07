@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16.16.0"
+    "node": "16.16.0",
+    "npm": "8.19.2"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -17,10 +18,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "weather_app/node_modules/.bin/react-scripts start",
-    "build": "weather_app/node_modules/.bin/react-scripts build",
-    "test": "weather_app/node_modules/.bin/react-scripts test",
-    "eject": "weather_app/node_modules/.bin/react-scripts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
