@@ -14,10 +14,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "weather_app/node_modules/.bin/react-scripts start",
+    "build": "weather_app/node_modules/.bin/react-scripts build",
+    "test": "weather_app/node_modules/.bin/react-scripts test",
+    "eject": "weather_app/node_modules/.bin/react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
