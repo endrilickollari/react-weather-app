@@ -23,7 +23,7 @@
     letter-spacing: 1px;
 }
 
-.weather-desc {
+.weather-description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1;
@@ -62,4 +62,8 @@
     text-align: right;
     font-weight: 600;
     font-size: 12px;
+}
+
+.parameter-label.top {
+    border-bottom: 1px solid #fff;
 }
